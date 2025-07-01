@@ -1,0 +1,89 @@
+## Ignore arquivos de build e publicação
+bin/
+obj/
+out/
+publish/
+TestResults/
+
+# Arquivos de build
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.csproj.user
+*.dbmdl
+
+## Logs e temporários
+*.log
+*.tlog
+*.tmp
+*.vspscc
+*.vssscc
+*.json.backup
+*.bak
+
+
+## Usuário e IDE (Visual Studio)
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Configurações específicas de build
+*.dbmdl
+*.bak
+*.ncb
+*.cache
+*.ide
+*.pidb
+*.svclog
+*.sdf
+*.psess
+*.vsp
+*.pdb
+
+## Arquivos de pacotes e dependências
+project.lock.json
+project.assets.json
+*.nuget.cache
+*.nupkg
+*.snupkg
+
+## Sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## Docker
+docker-compose.override.yml
+.env
+
+## Rider IDE
+.idea/
+*.sln.iml
+
+## Testes e cobertura
+TestResults/
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+*.trx
+
+## Outros
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+*.swp
+
+# Ignore arquivos gerados pelo Git
+*.orig
+
+# Ignore arquivos secrets
+secrets.json
+
+# Ignore arquivos do Visual Studio Code
+.vscode/
