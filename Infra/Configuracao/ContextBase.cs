@@ -41,7 +41,7 @@ namespace Infra.Configuracao
 
         public string ObterStringConexao()
         {
-            return "Data Source=localhost;Initial Catalog=FINANCEIROJH;Integrated Security=True";
+            return "Data Source=localhost,1433;Initial Catalog=FINANCEIROJH;Integrated Security=True; TrustServerCertificate=True";
         }
 
 
